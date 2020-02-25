@@ -1,0 +1,27 @@
+
+
+.nav-container {
+    background-color: $white;
+    display: flex;
+    justify-content: space-around;
+    .nav-title{
+        font-family: 'Shadows Into Light', serif;
+        h1 {
+            color: $gold-one;
+            font-size: 300%;
+        }
+        i {
+            color: $gold-two;
+            font-size: 110%;
+        }
+    }
+}
+
+.countdown-container {
+    background-color: $countdown-blue;
+    h3 {
+        font-family: 'Open Sans', sans-serif;
+        color: $white;
+    }
+}
+
