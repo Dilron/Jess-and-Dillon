@@ -3,24 +3,44 @@
 .nav-container {
     background-color: $white;
     display: flex;
-    justify-content: space-around;
-    .nav-title{
-        font-family: 'Shadows Into Light', serif;
-        h1 {
-            color: $gold-one;
-            font-size: 300%;
-        }
-        i {
-            color: $gold-two;
-            font-size: 110%;
-        }
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin: 1em 6% 1em 6%;
+}
+
+.nav-container-right{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.nav-title{
+    font-family: 'Shadows Into Light', serif;
+    h1 {
+        color: $gold-one;
+        font-size: 45px;
+    }
+    i {
+        color: $gold-two;
+        font-size: 110%;
     }
 }
 
 .countdown-container {
+    height: 76%;
+    padding: 2%;
     background-color: $countdown-blue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     h3 {
-        font-family: 'Open Sans', sans-serif;
         color: $white;
     }
 }

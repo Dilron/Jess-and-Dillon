@@ -1,0 +1,20 @@
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.5em;
+    padding: 1.5em 3em;
+    background-color: #031126;
+    color: $white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.contact-info-row {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
