@@ -22,7 +22,7 @@
     font-family: 'Shadows Into Light', serif;
     h1 {
         color: $gold-one;
-        font-size: 45px;
+        font-size: 250%;
     }
     i {
         color: $gold-two;
@@ -33,7 +33,7 @@
 .countdown-container {
     height: 76%;
     padding: 2%;
-    background-color: $countdown-blue;
+    background: linear-gradient( rgba(0,0,0,0), $countdown-blue 10%, $countdown-blue 90%, rgba(0,0,0,0) ) ;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     display: flex;
