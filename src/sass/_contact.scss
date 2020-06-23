@@ -12,9 +12,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
 .contact-info-row {
     width: 60%;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 450px){
+    .contact-container{
+        height: 10em;
+    }
+    .contact-info-row{
+        flex-direction: column;
+    }
 }
