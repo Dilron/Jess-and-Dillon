@@ -27,9 +27,10 @@
 
 @media screen and (max-width: 450px){
     .contact-container{
-        height: 10em;
+        height: 13em;
     }
     .contact-info-row{
         flex-direction: column;
+        line-height: 110%;
     }
 }
